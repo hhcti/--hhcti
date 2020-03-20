@@ -1,0 +1,251 @@
+.main {
+  margin-top: 10px;
+  width: 980px;
+  height: 455px;
+  margin-left: 220px;
+}
+.focus {
+  float: left;
+  width: 721px;
+  height: 455px;
+  background-color: purple;
+}
+
+.newsflash {
+  float: right;
+  width: 250px;
+  height: 455px;
+}
+
+.news {
+  height: 165px;
+  border: 1px solid #e4e4e4;
+}
+.lifeservice {
+  overflow: hidden;
+  height: 208px;
+  border: 1px solid #e4e4e4;
+  border-top: 0;
+}
+.lifeservice ul {
+  width: 252px;
+}
+.lifeservice ul li {
+  float: left;
+  width: 63px;
+  height: 70px;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  text-align: center;
+}
+
+.lifeservice ul li a {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.service_icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 10px auto;
+  background: url(../images/icons.png) no-repeat;
+}
+.lifeservice .i1 {
+  background-position: -17px -16px;
+}
+.lifeservice .i2 {
+  width: 26px;
+  background-position: -78px -16px;
+}
+.abs {
+  position: relative;
+}
+.jian {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 12px;
+  height: 15px;
+  background: url(../upload/jian.png) no-repeat;
+}
+.lifeservice .i3 {
+  width: 26px;
+  background-position: -141px -16px;
+}
+.lifeservice .i4 {
+  width: 26px;
+  background-position: -205px -16px;
+}
+.lifeservice .i5 {
+  width: 26px;
+  background-position: -17px -88px;
+}
+.lifeservice .i6 {
+  width: 26px;
+  background-position: -78px -88px;
+}
+.lifeservice .i7 {
+  width: 26px;
+  background-position: -141px -88px;
+}
+.lifeservice .i8 {
+  width: 26px;
+  background-position: -205px -88px;
+}
+.lifeservice .i9 {
+  width: 26px;
+  background-position: -17px -158px;
+}
+.lifeservice .i10 {
+  width: 26px;
+  background-position: -78px -158px;
+}
+.lifeservice .i11 {
+  width: 26px;
+  background-position: -141px -158px;
+}
+.lifeservice .i12 {
+  width: 26px;
+  background-position: -205px -158px;
+}
+.lifeservice ul li a p {
+  text-align: center;
+}
+.bargin {
+  margin-top: 7px;
+}
+.news-hd {
+  height: 32px;
+  border: 1px dotted #e4e4e4;
+  line-height: 32px;
+  padding: 0 15px;
+}
+.news-hd h5 {
+  float: left;
+  font-size: 14px;
+  height: 30px;
+}
+.news-hd .more {
+  display: block;
+  float: right;
+}
+.news-hd .more::after {
+  content: "\e600";
+  font-family: "iconfont";
+}
+.news-bd {
+  font-size: 12px;
+  color: #666666;
+}
+.news-bd {
+  padding: 5px 15px 0;
+}
+.news-bd ul li {
+  height: 24px;
+  line-height: 24px;
+}
+.recom {
+  height: 163px;
+  background-color: #ebebeb;
+  margin-top: 12px;
+}
+.recom_hd {
+  float: left;
+  height: 163px;
+  width: 205px;
+  background-color: #5c5251;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.recom_bd {
+  float: left;
+}
+.recom_bd ul li {
+  float: left;
+  position: relative;
+  /* border-right: 1px solid #ccc; */
+}
+/* .recom_bd ul li img {
+  width: 248px;
+  height: 163px;
+} */
+.recom_bd ul li:nth-child(-n + 3)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 1px;
+  height: 145px;
+  background-color: #ddd;
+}
+.recom_bd ul li a {
+  display: block;
+  margin: 10px 0;
+}
+/* 家用电器模块 */
+.box_hd {
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+  margin-top: 20px;
+}
+.box_hd h3 {
+  float: left;
+  font-size: 18px;
+  color: #c81623;
+  font-weight: 400;
+}
+.tab_list {
+  float: right;
+  line-height: 30px;
+}
+.tab_list ul li {
+  float: left;
+}
+
+.tab_list ul li a {
+  margin: 0 15px;
+}
+.box_bd {
+  height: 361px;
+}
+.tab_list_item > div {
+  float: left;
+}
+.col_210 {
+  width: 210px;
+  height: 361px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.col_210 ul li {
+  float: left;
+  width: 85px;
+  height: 34px;
+  border-bottom: 1px solid #ccc;
+  line-height: 34px;
+  margin-right: 10px;
+}
+.col_210 ul {
+  padding-left: 12px;
+}
+
+.col_329 {
+  width: 329px;
+  height: 361px;
+}
+.col_221 {
+  width: 221px;
+  height: 361px;
+  border-right: 1px solid #ccc;
+}
+.col_219 {
+  width: 219px;
+  height: 361px;
+}
+.bb {
+  display: block;
+  border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,16 @@
+1、after伪元素的父亲是调用的元素，如li::after   则position要加给li
+2、iconfont 字体在CSS伪元素中的使用：
+         ::after {
+            content: "\e600";//注意这里去掉多余的加\；
+            font-family: "iconfont";//声明字体
+            }
+3、前三个元素利用nth：child(-n+3);//注意之间不要有空格
+4、h 标签高度不一致问题，以后遇到注意一下
+5、图片后跟文字处理：直接在文字前的图片浮动起来，文字围绕图片
+6、子元素宽度或高度浮动超出父盒子不在同一位置时：可以将父盒子扩大然后再overflow：hidden
+7、定版心 w
+8、|不在li里面先执行li最后一起执行跟在每个li后面的|
+9、tab栏布局：一个tab_list 一个tab_content 一个list对应一个content 用js实现
+10、一般情况下，a如果包含有宽度的盒子,a需要转为块级元素
+11、li本身会有边框用：hover伪元素是会出现抖动，所以可以开li里面设置边框为translation，经过hover加颜色
+12、input行内块元素

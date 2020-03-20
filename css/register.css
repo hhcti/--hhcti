@@ -1,0 +1,128 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  height: 84px;
+  border-bottom: 2px solid #c81523;
+}
+.logo {
+  padding-top: 5px;
+}
+.registerarea {
+  box-sizing: border-box;
+  margin-top: 20px;
+  height: 522px;
+  border: 1px solid #ccc;
+}
+.registerarea h3 {
+  margin-top: 0;
+  height: 42px;
+  width: 1200px;
+  background-color: #ececec;
+  line-height: 42px;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.login {
+  float: right;
+  font-size: 14px;
+}
+.login a {
+  padding-left: 2px;
+}
+.reg_form {
+  height: 400px;
+  width: 600px;
+  margin: 30px auto;
+}
+.reg_form ul li label {
+  display: inline-block;
+  text-align: right;
+  width: 88px;
+}
+.reg_form ul li {
+  margin-bottom: 20px;
+}
+.reg_form ul li input {
+  width: 242px;
+  height: 37px;
+  border: 1px solid #ccc;
+  text-indent: 6px;
+}
+.error {
+  color: #c81523;
+}
+/* .error_icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: skyblue;
+  vertical-align: middle;
+  margin-top: -2px;
+  bgc:url();
+} */
+.error_icon::before {
+  content: "\e663";
+  font-family: "iconfont";
+  font-size: 24px;
+  vertical-align: bottom;
+  margin-top: -2px;
+}
+.success {
+  color: green;
+}
+.success::before {
+  content: "\e658";
+  font-family: "iconfont";
+  font-size: 24px;
+  vertical-align: bottom;
+  margin-top: -2px;
+}
+.safe {
+  padding-left: 167px;
+}
+.safe em {
+  padding: 0 12px;
+  color: #ffffff;
+}
+.safe em:nth-child(1) {
+  background-color: #de1111;
+}
+.safe em:nth-child(2) {
+  background-color: #30b83f;
+}
+.safe em:nth-child(3) {
+  background-color: #f79100;
+}
+.agree {
+  padding-left: 100px;
+}
+.agree > .check1 {
+  width: 16px;
+  height: 16px;
+  vertical-align: bottom;
+}
+.btn {
+  width: 200px;
+  height: 34px;
+  background-color: red;
+  color: white;
+  margin-left: 90px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.mod_copright {
+  text-align: center;
+  padding-top: 20px;
+}
+.mod_copright .links {
+  margin-bottom: 15px;
+}
+.mod_copright .links a {
+  margin: 0 3px;
+}
+.mod_copright .copyright {
+  line-height: 20px;
+}
